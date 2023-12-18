@@ -1,0 +1,39 @@
+h2{
+    color: chocolate;
+}
+
+h1>span{
+    color: brown;
+}
+
+#pets{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    width: 400px;
+    border: 2px solid black;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: inherit;
+}
+
+
+h4{
+    text-align: end;
+}
+
+@media (max-width: 376px) {
+    #pets{
+        flex-wrap:wrap;
+    }
+}
